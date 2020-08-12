@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="chuck.png" alt="">
+
+    <h3> Get a joke </h3>
+    <p> Choose from:
+        animal, career , celebrity , dev , explicit,
+        fashion, food, history, money, movie, music, political, religion, science, sport, travel
+    </p>
+
+    <form action="/results" method="POST">
+        <input text="text" placeholder="Enter category" name="category" />
+
+        <button type="submit"> Submit </button>
+    </form>
+    <span> {{joke}} </span>
+</body>
+
+</html>
